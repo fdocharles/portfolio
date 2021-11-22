@@ -1,8 +1,11 @@
 body {
-  padding: 20;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #191919;
   color: #fff;
+}
+
+.stage {
+  padding: 20;
 }
 
 .color-white {
@@ -38,6 +41,12 @@ a:hover {
 a:hover:after {
   width: 100%;
   left: 0;
+}
+
+.footer {
+  bottom: 0;
+  position: absolute;
+  height: 7%;
 }
 
 /*----------------------- */
