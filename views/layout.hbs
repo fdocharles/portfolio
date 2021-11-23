@@ -3,31 +3,44 @@
     <title>{{title}}</title>
     <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav menu">
-          <a class="nav-item fs-5 color-white" href="/">HOME
-          <a class="nav-item fs-5 color-white" href="/aboutme">ABOUT ME</a>
-          <a class="nav-item fs-5 color-white" href="/projects">PROJECTS</a>
-          <a class="nav-item fs-5 color-white" href="/contact">CONTACT</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav menu">
+            <a class="nav-item fs-5 color-white" href="/">HOME
+            <a class="nav-item fs-5 color-white" href="/aboutme">ABOUT ME</a>
+            <a class="nav-item fs-5 color-white" href="/projects">PROJECTS</a>
+            <a class="nav-item fs-5 color-white" href="/contact">CONTACT</a>
+          </div>
         </div>
-      </div>
-    </nav>
-    {{{body}}}
+      </nav>
+    <div class="stage">
+      {{{body}}}
+    </div>
+    <div class="footer">
+        <a class="social-link" href="https://github.com/fdocharles/portfolio">
+        <i class="fa fa-github"></i>
+        </a>
+        <a class="social-link"  href="https://www.linkedin.com/in/charles-fernando-62858882/">
+          <i class="fa fa-linkedin"></i>
+        </a>
+    </div>
     <script src="/javascripts/popper.min.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
   </body>

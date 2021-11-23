@@ -46,7 +46,35 @@ a:hover:after {
 .footer {
   bottom: 0;
   position: absolute;
-  height: 7%;
+  height: 9%;
+  background-color: #000;
+  width: 100%;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.social-link {
+  border: 1px solid white;
+  border-radius: 100px;
+  width: 3%;
+  margin-right: 8px;
+  color: white;
+  font-size: 20px;
+  height: 56px;
+}
+
+.social-link:hover {
+  border: 1px solid white;
+  border-radius: 100px;
+  width: 3%;
+  margin-right: 8px;
+  background-color: #f9004d;
+  color: white;
+  font-size: 20px;
+  height: 56px;
+}
+
+.social-link-icon {
 }
 
 /*----------------------- */
